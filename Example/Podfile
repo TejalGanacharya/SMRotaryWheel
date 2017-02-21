@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SMRotaryWheel_Tests' do
+  pod 'SMRotaryWheel', :path => '../'
+  
+  
+end
