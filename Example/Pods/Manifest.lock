@@ -1,0 +1,16 @@
+PODS:
+  - SMRotaryWheel (0.1.0)
+
+DEPENDENCIES:
+  - SMRotaryWheel (from `../`)
+
+EXTERNAL SOURCES:
+  SMRotaryWheel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SMRotaryWheel: bdca84b55fc5b8bff6161343a8aa40779c762b76
+
+PODFILE CHECKSUM: aa4e11c336b2884c33ee9edff39878d3a9418b28
+
+COCOAPODS: 1.2.0

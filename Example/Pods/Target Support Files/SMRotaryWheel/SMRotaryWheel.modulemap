@@ -1,0 +1,6 @@
+framework module SMRotaryWheel {
+  umbrella header "SMRotaryWheel-umbrella.h"
+
+  export *
+  module * { export * }
+}

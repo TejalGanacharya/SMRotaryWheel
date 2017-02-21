@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F782DB118F8CBEA8872EFC5893E41F1 /* SMRotaryWheel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF929DB265C69791B971F6795FA3334B /* SMRotaryWheel-dummy.m */; };
+		3FD1BF8210FFF453FAADA285E110F7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		75B14E8488D678D9A2E00CFF2C842454 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		935536E0C96C6359836A1F8FB1B86BBB /* SMRotaryWheel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EA3E2386916A0D3767CBB75466AFBB /* SMRotaryWheel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10169170461D87B3E10BB58C2F8B945 /* Pods-SMRotaryWheel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C790B12691B4E912F6C97980E862F3 /* Pods-SMRotaryWheel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B72AA7D096B3B9B06B5AF9F6EBE45F46 /* Pods-SMRotaryWheel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 576EB41F696F326B50CE2170D5B695A4 /* Pods-SMRotaryWheel_Tests-dummy.m */; };
+		ED1A5590392D9D9286004DD1C9A6EB53 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AA82798B448239171730F19E432D90 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE7F07B103B1C58C448726F3BC2CC292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31238386CB5AEFBB41D36228925A6C44;
+			remoteInfo = SMRotaryWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C290E0E9B19FDDD07EDA63B86F758F /* Pods-SMRotaryWheel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SMRotaryWheel_Tests.modulemap"; sourceTree = "<group>"; };
+		18AA82798B448239171730F19E432D90 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		20EA3E2386916A0D3767CBB75466AFBB /* SMRotaryWheel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMRotaryWheel-umbrella.h"; sourceTree = "<group>"; };
+		3E0DFBA4439B9595788A7E0B0355C09F /* SMRotaryWheel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMRotaryWheel.modulemap; sourceTree = "<group>"; };
+		3EDCBCA061A3B7D7FE6000A6306E05DE /* SMRotaryWheel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMRotaryWheel-prefix.pch"; sourceTree = "<group>"; };
+		45CA140C2B89E50A2E8D1528E257B8F8 /* Pods-SMRotaryWheel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMRotaryWheel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47CBE8655AF34D9F71AD8B654E0C1C9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D36A50802F59338778D43A50F22205E /* SMRotaryWheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMRotaryWheel.framework; path = SMRotaryWheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576EB41F696F326B50CE2170D5B695A4 /* Pods-SMRotaryWheel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMRotaryWheel_Tests-dummy.m"; sourceTree = "<group>"; };
+		5975626F56E39F921A7ACAD05F64D482 /* Pods-SMRotaryWheel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMRotaryWheel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6019700531EB8E5033A01AA093BC443F /* SMRotaryWheel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMRotaryWheel.xcconfig; sourceTree = "<group>"; };
+		81C790B12691B4E912F6C97980E862F3 /* Pods-SMRotaryWheel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMRotaryWheel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		852B1B854FAA1BC40719CD91F68E7E13 /* Pods-SMRotaryWheel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMRotaryWheel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B94CA363B813345CCAE76FC05CDDB39 /* Pods-SMRotaryWheel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMRotaryWheel_Tests-resources.sh"; sourceTree = "<group>"; };
+		932559C6EE4527938C76AC1DD3E90F82 /* Pods-SMRotaryWheel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMRotaryWheel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97043F427DAC1E53C54CBB8660538D16 /* Pods-SMRotaryWheel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMRotaryWheel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A7611D8D426198DBCB1762E2BAD9744D /* Pods_SMRotaryWheel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMRotaryWheel_Tests.framework; path = "Pods-SMRotaryWheel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF929DB265C69791B971F6795FA3334B /* SMRotaryWheel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMRotaryWheel-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D13D31F88DFBEF27FB85C58F5800277F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE08338D4A82F486A38382D5B5E928C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B14E8488D678D9A2E00CFF2C842454 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5696F5A4C78653D08E7F1CC801246370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD1BF8210FFF453FAADA285E110F7A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004EDF7B7401071354FF8F3D070797A7 /* Pods-SMRotaryWheel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				47CBE8655AF34D9F71AD8B654E0C1C9A /* Info.plist */,
+				15C290E0E9B19FDDD07EDA63B86F758F /* Pods-SMRotaryWheel_Tests.modulemap */,
+				45CA140C2B89E50A2E8D1528E257B8F8 /* Pods-SMRotaryWheel_Tests-acknowledgements.markdown */,
+				5975626F56E39F921A7ACAD05F64D482 /* Pods-SMRotaryWheel_Tests-acknowledgements.plist */,
+				576EB41F696F326B50CE2170D5B695A4 /* Pods-SMRotaryWheel_Tests-dummy.m */,
+				97043F427DAC1E53C54CBB8660538D16 /* Pods-SMRotaryWheel_Tests-frameworks.sh */,
+				8B94CA363B813345CCAE76FC05CDDB39 /* Pods-SMRotaryWheel_Tests-resources.sh */,
+				81C790B12691B4E912F6C97980E862F3 /* Pods-SMRotaryWheel_Tests-umbrella.h */,
+				852B1B854FAA1BC40719CD91F68E7E13 /* Pods-SMRotaryWheel_Tests.debug.xcconfig */,
+				932559C6EE4527938C76AC1DD3E90F82 /* Pods-SMRotaryWheel_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMRotaryWheel_Tests";
+			path = "Target Support Files/Pods-SMRotaryWheel_Tests";
+			sourceTree = "<group>";
+		};
+		321A1A8B2EEEE15ECD43DFF228001DD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AA82798B448239171730F19E432D90 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7766630E4BD7D13D9D97EA0270A04A94 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6DA76D9C7CD4AC3F8CA6F2C55103962 /* SMRotaryWheel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7766630E4BD7D13D9D97EA0270A04A94 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9F20AE94E6813269E344C165E23C528 /* Products */,
+				A0E9CC8950C27AC1D1A7641B5EE36481 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		866CC2E0B572125263778EF6C6531837 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D13D31F88DFBEF27FB85C58F5800277F /* Info.plist */,
+				3E0DFBA4439B9595788A7E0B0355C09F /* SMRotaryWheel.modulemap */,
+				6019700531EB8E5033A01AA093BC443F /* SMRotaryWheel.xcconfig */,
+				BF929DB265C69791B971F6795FA3334B /* SMRotaryWheel-dummy.m */,
+				3EDCBCA061A3B7D7FE6000A6306E05DE /* SMRotaryWheel-prefix.pch */,
+				20EA3E2386916A0D3767CBB75466AFBB /* SMRotaryWheel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMRotaryWheel";
+			sourceTree = "<group>";
+		};
+		A0E9CC8950C27AC1D1A7641B5EE36481 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				004EDF7B7401071354FF8F3D070797A7 /* Pods-SMRotaryWheel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F20AE94E6813269E344C165E23C528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7611D8D426198DBCB1762E2BAD9744D /* Pods_SMRotaryWheel_Tests.framework */,
+				4D36A50802F59338778D43A50F22205E /* SMRotaryWheel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DA76D9C7CD4AC3F8CA6F2C55103962 /* SMRotaryWheel */ = {
+			isa = PBXGroup;
+			children = (
+				FE43033D303DEE09831C7B48C86E608B /* SMRotaryWheel */,
+				866CC2E0B572125263778EF6C6531837 /* Support Files */,
+			);
+			name = SMRotaryWheel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE43033D303DEE09831C7B48C86E608B /* SMRotaryWheel */ = {
+			isa = PBXGroup;
+			children = (
+				321A1A8B2EEEE15ECD43DFF228001DD5 /* Classes */,
+			);
+			name = SMRotaryWheel;
+			path = SMRotaryWheel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28675928C141FE2EC98E12A5FDAB0091 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935536E0C96C6359836A1F8FB1B86BBB /* SMRotaryWheel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88F888FCFAD8F5E3C04A47146226003 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10169170461D87B3E10BB58C2F8B945 /* Pods-SMRotaryWheel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31238386CB5AEFBB41D36228925A6C44 /* SMRotaryWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA0A6D45DE45E15140CA52D67BF2528 /* Build configuration list for PBXNativeTarget "SMRotaryWheel" */;
+			buildPhases = (
+				9DE2C375E59D88AB409A2328962B2B44 /* Sources */,
+				1CE08338D4A82F486A38382D5B5E928C /* Frameworks */,
+				28675928C141FE2EC98E12A5FDAB0091 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMRotaryWheel;
+			productName = SMRotaryWheel;
+			productReference = 4D36A50802F59338778D43A50F22205E /* SMRotaryWheel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D13D6FC51563F89DB5094A9E905B026 /* Pods-SMRotaryWheel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B73EDBBB4D4BFF99828709434ADE95 /* Build configuration list for PBXNativeTarget "Pods-SMRotaryWheel_Tests" */;
+			buildPhases = (
+				470B1C26917DCBFF808B384D1540D241 /* Sources */,
+				5696F5A4C78653D08E7F1CC801246370 /* Frameworks */,
+				D88F888FCFAD8F5E3C04A47146226003 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D162F663DBB9D38CB8A1C6438D369B /* PBXTargetDependency */,
+			);
+			name = "Pods-SMRotaryWheel_Tests";
+			productName = "Pods-SMRotaryWheel_Tests";
+			productReference = A7611D8D426198DBCB1762E2BAD9744D /* Pods_SMRotaryWheel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9F20AE94E6813269E344C165E23C528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D13D6FC51563F89DB5094A9E905B026 /* Pods-SMRotaryWheel_Tests */,
+				31238386CB5AEFBB41D36228925A6C44 /* SMRotaryWheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		470B1C26917DCBFF808B384D1540D241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72AA7D096B3B9B06B5AF9F6EBE45F46 /* Pods-SMRotaryWheel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE2C375E59D88AB409A2328962B2B44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1A5590392D9D9286004DD1C9A6EB53 /* ReplaceMe.m in Sources */,
+				2F782DB118F8CBEA8872EFC5893E41F1 /* SMRotaryWheel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D162F663DBB9D38CB8A1C6438D369B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMRotaryWheel;
+			target = 31238386CB5AEFBB41D36228925A6C44 /* SMRotaryWheel */;
+			targetProxy = EE7F07B103B1C58C448726F3BC2CC292 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		419495E8F47336D122358C2C4C7163D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6019700531EB8E5033A01AA093BC443F /* SMRotaryWheel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMRotaryWheel/SMRotaryWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMRotaryWheel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMRotaryWheel/SMRotaryWheel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SMRotaryWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FBF1C5490926CF561ECFA298834E1EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6019700531EB8E5033A01AA093BC443F /* SMRotaryWheel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMRotaryWheel/SMRotaryWheel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMRotaryWheel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMRotaryWheel/SMRotaryWheel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMRotaryWheel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923FE249C34C12F040BF075113416771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932559C6EE4527938C76AC1DD3E90F82 /* Pods-SMRotaryWheel_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMRotaryWheel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMRotaryWheel_Tests/Pods-SMRotaryWheel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMRotaryWheel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AC005ECDDE4A4EDC2B4FCF011C1A967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852B1B854FAA1BC40719CD91F68E7E13 /* Pods-SMRotaryWheel_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMRotaryWheel_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMRotaryWheel_Tests/Pods-SMRotaryWheel_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMRotaryWheel_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B73EDBBB4D4BFF99828709434ADE95 /* Build configuration list for PBXNativeTarget "Pods-SMRotaryWheel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC005ECDDE4A4EDC2B4FCF011C1A967 /* Debug */,
+				923FE249C34C12F040BF075113416771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA0A6D45DE45E15140CA52D67BF2528 /* Build configuration list for PBXNativeTarget "SMRotaryWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419495E8F47336D122358C2C4C7163D1 /* Debug */,
+				7FBF1C5490926CF561ECFA298834E1EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
